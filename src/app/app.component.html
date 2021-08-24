@@ -1,3 +1,9 @@
-<app-dash-header></app-dash-header>
-<app-dashbord-overview></app-dashbord-overview>
-<router-outlet></router-outlet>
+<mat-drawer-container>
+  <mat-drawer mode="side" open="true">
+    <app-dash-sidenav></app-dash-sidenav>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-dash-header></app-dash-header>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
