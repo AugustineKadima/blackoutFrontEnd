@@ -21,6 +21,13 @@ import { FormsModule } from '@angular/forms';
 import { DashHeaderComponent } from './dash-header/dash-header.component';
 import { DashHomeComponent } from './dash-home/dash-home.component';
 import { DashSidenavComponent } from './dash-sidenav/dash-sidenav.component';
+import{MatMenuModule} from '@angular/material/menu';
+import{MatIconModule} from '@angular/material/icon';
+import{MatListModule} from '@angular/material/list';
+import{MatDividerModule} from '@angular/material/divider';
+import{MatSidenavModule} from '@angular/material/sidenav';
+
+
 
 @NgModule({
   declarations: [
@@ -49,6 +56,13 @@ import { DashSidenavComponent } from './dash-sidenav/dash-sidenav.component';
     BrowserAnimationsModule,
     MatSliderModule,
     FormsModule,
+    MatSidenavModule,
+    MatDividerModule,
+    MatMenuModule,
+    MatIconModule,
+    MatListModule,
+
+
    
   ],
   providers: [],
