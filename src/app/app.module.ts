@@ -18,14 +18,13 @@ import { HelpComponent } from './help/help.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { FormsModule } from '@angular/forms';
-import { DashHeaderComponent } from './dash-header/dash-header.component';
 import { DashHomeComponent } from './dash-home/dash-home.component';
-import { DashSidenavComponent } from './dash-sidenav/dash-sidenav.component';
 import{MatMenuModule} from '@angular/material/menu';
 import{MatIconModule} from '@angular/material/icon';
 import{MatListModule} from '@angular/material/list';
 import{MatDividerModule} from '@angular/material/divider';
 import{MatSidenavModule} from '@angular/material/sidenav';
+import { SidenavComponent } from './sidenav/sidenav.component'
 
 
 
@@ -43,9 +42,9 @@ import{MatSidenavModule} from '@angular/material/sidenav';
     MyAlertsComponent,
     EditAccountsComponent,
     HelpComponent,
-    DashHeaderComponent,
     DashHomeComponent,
-    DashSidenavComponent,
+    SidenavComponent,
+    
   
   
   
