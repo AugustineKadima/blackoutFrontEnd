@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
@@ -14,6 +15,9 @@ import { AlertModalComponent } from './alert-modal/alert-modal.component';
 import { MyAlertsComponent } from './my-alerts/my-alerts.component';
 import { EditAccountsComponent } from './edit-accounts/edit-accounts.component';
 import { HelpComponent } from './help/help.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,11 +32,18 @@ import { HelpComponent } from './help/help.component';
     AlertModalComponent,
     MyAlertsComponent,
     EditAccountsComponent,
-    HelpComponent
+    HelpComponent,
+  
+  
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    FormsModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
