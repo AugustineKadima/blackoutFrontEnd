@@ -18,6 +18,9 @@ import { HelpComponent } from './help/help.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { FormsModule } from '@angular/forms';
+import { DashHeaderComponent } from './dash-header/dash-header.component';
+import { DashHomeComponent } from './dash-home/dash-home.component';
+import { DashSidenavComponent } from './dash-sidenav/dash-sidenav.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { FormsModule } from '@angular/forms';
     MyAlertsComponent,
     EditAccountsComponent,
     HelpComponent,
+    DashHeaderComponent,
+    DashHomeComponent,
+    DashSidenavComponent,
   
   
   
