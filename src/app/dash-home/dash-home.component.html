@@ -1,48 +1,168 @@
-<!-- Description boxes -->
-<!--  box1 -->
-<div class="row">
+<!-- card -->
+<div id="card" class="row">
   <div class="col-md-3">
     <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
+      <div class="card">
+        <div class="card-body">
+          <h1>Blackout</h1>
+          <p>60</p>
+        </div>
       </div>
     </div>
   </div>
-  <!-- box 2 -->
   <div class="col-md-3">
     <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
+      <div class="card">
+        <div class="card-body">
+          <h1>In the Last hr</h1>
+          <p>16</p>
+        </div>
       </div>
     </div>
   </div>
-  <!-- box 3 -->
   <div class="col-md-3">
     <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
+      <div class="card">
+        <div class="card-body">
+          <h1>Zone Affected</h1>
+          <p>43</p>
+        </div>
       </div>
     </div>
   </div>
-  <!-- box 4 -->
   <div class="col-md-3">
     <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
+      <div class="card">
+        <div class="card-body">
+          <h1>Resolved</h1>
+          <p>64</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<!-- end of description boxes -->
+<!-- end of card -->
+<!-- Graph section -->
+<div class="row">
+  <div class="col-md-8"></div>
+  <div class="col-md-4">
+    <div class="Resolved">
+      <h1>Resolved</h1>
+      <h1>64</h1>
+    </div>
+    <div class="Getting-fixed">
+      <h1>Getting fixed</h1>
+      <h1>26</h1>
+    </div>
+    <div class="Getting-fixed">
+      <h1>Average first response time</h1>
+      <h1>33m</h1>
+    </div>
+    <div class="Getting-fixed">
+      <h1>Average response time</h1>
+      <h1>3h 8m</h1>
+    </div>
+  </div>
+</div>
+<!-- Graph section -->
+<!-- create alert card-->
+<!--  Created Alerts -->
+<div id="alert" class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title4">Created Alerts</h5>
+        <p class="personal">Personal: <b style="color: black">Alerts</b></p>
+        <p class="card-text4"><a href="#">View details</a></p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          Donholm Phase 5 power outage
+          <p class="list">Most Recent</p>
+        </li>
+        <li class="list-group-item">
+          Kisumu Ndogo power outage
+          <p class="list">2 Days ago</p>
+        </li>
+        <li class="list-group-item">
+          Lights back donholm
+          <p class="list">A few minutes ago</p>
+        </li>
+        <li class="list-group-item">
+          Lights back Kisumu Ndogo
+          <p class="list">2 Days ago</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Create quick alert -->
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title4">Create Quick Alert</h5>
+        <p class="personal">Today</p>
+        <p class="card-text4">View detail</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+            style="border-radius: 50px"
+          /><label
+            class="form-check-label"
+            for="flexCheckDefault"
+            style="margin-left: 5%"
+            >Donholm Power outage</label
+          >
+          <button type="button" class="btn btn-warning">URGENT</button>
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+            style="border-radius: 50px; gap: 2%"
+          /><label
+            class="form-check-label"
+            for="flexCheckDefault"
+            style="margin-left: 5%"
+          >
+            Donholm Power outage</label
+          ><button
+            type="button"
+            class="btn btn-success"
+            style="background-color: #29cc97"
+          >
+            NEW
+          </button>
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+            style="border-radius: 50px"
+          /><label
+            class="form-check-label"
+            for="flexCheckDefault"
+            style="margin-left: 5%"
+            >Kisumu ndogo Power outage</label
+          >
+          <button
+            type="button"
+            class="btn btn1"
+            style="background-color: white"
+          >
+            PUBLISH ALERT
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end of alert card -->
