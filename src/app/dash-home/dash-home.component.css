@@ -3,10 +3,8 @@
     width: 20%;
     height: 200px;
 }
-card{
+.card{
     border-color: grayscale/divider;
-    width: 20rem;
-    height: 10rem;
     }
 .card-body{
     gap: 2%;
@@ -160,4 +158,52 @@ card{
 }
 #card{
     margin-top: 30px;
+}
+.Graph-details{
+    border: solid #DFE0EB 3px;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.left{
+    border-right: #9FA2B4 solid 1px;
+}
+
+.zone p, .reports p, .response p, .response-time p{
+    color: #9FA2B4;
+    font-size: 18px;
+    text-align: center;
+}
+
+#zone, #reports, #response, #response-time{
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+
+.zone, .reports, .response, .response-time{
+    padding-top: 30px;
+    margin-left: -12px;
+}
+
+.zone, .reports, .response, .response-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: #9FA2B4 solid 1px;
+}
+
+.response-time{
+    border: none;
+}
+.blackout , .last , .zones, .resolved{
+    font-size: 30px;
+    text-align: center;
+}
+.black , .Hr , .Affected , .lved{
+    color: #9FA2B4;
+    font-size: 18px;
+    text-align: center;
 }

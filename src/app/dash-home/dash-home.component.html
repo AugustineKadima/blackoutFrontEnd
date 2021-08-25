@@ -1,69 +1,70 @@
-<!-- card -->
-<div id="card" class="row">
+<div id="alert" class="row">
   <div class="col-md-3">
     <div class="card">
-      <div class="card">
-        <div class="card-body">
-          <h1>Blackout</h1>
-          <p>60</p>
-        </div>
+      <div class="card-body">
+        <h5 class="black">Blackout</h5>
+        <h1 class="blackout"><b style="color: black">60</b></h1>
       </div>
     </div>
   </div>
   <div class="col-md-3">
     <div class="card">
-      <div class="card">
-        <div class="card-body">
-          <h1>In the Last hr</h1>
-          <p>16</p>
-        </div>
+      <div class="card-body">
+        <h5 class="Hr">In the last Hr</h5>
+        <h1 class="last"><b style="color: black">16</b></h1>
       </div>
     </div>
   </div>
   <div class="col-md-3">
     <div class="card">
-      <div class="card">
-        <div class="card-body">
-          <h1>Zone Affected</h1>
-          <p>43</p>
-        </div>
+      <div class="card-body">
+        <h5 class="Affected">Zone Affected</h5>
+        <h1 class="zones"><b style="color: black">43</b></h1>
       </div>
     </div>
   </div>
   <div class="col-md-3">
     <div class="card">
-      <div class="card">
-        <div class="card-body">
-          <h1>Resolved</h1>
-          <p>64</p>
+      <div class="card-body">
+        <h5 class="lved">Resolved</h5>
+        <h1 class="resolved"><b style="color: black">64</b></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row Graph-details">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Graph-->
+      <div class="col-md-8 left"></div>
+      <!-- Zone data -->
+      <div class="col-md-4">
+        <!-- Zone Alerts -->
+        <div class="zone">
+          <p>Resolved</p>
+          <p id="zone">64</p>
+        </div>
+        <!-- Reported Fixed -->
+        <div class="reports">
+          <p>Getting Fixed</p>
+          <p id="reports">26</p>
+        </div>
+        <!-- KPLC Average Response Time -->
+        <div class="response">
+          <p>Average first response time</p>
+          <p id="response">33m</p>
+        </div>
+        <!-- Average response time -->
+        <div class="response-time">
+          <p>Average response time</p>
+          <p id="response">3h 8m</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- end of card -->
-<!-- Graph section -->
-<div class="row">
-  <div class="col-md-8"></div>
-  <div class="col-md-4">
-    <div class="Resolved">
-      <h1>Resolved</h1>
-      <h1>64</h1>
-    </div>
-    <div class="Getting-fixed">
-      <h1>Getting fixed</h1>
-      <h1>26</h1>
-    </div>
-    <div class="Getting-fixed">
-      <h1>Average first response time</h1>
-      <h1>33m</h1>
-    </div>
-    <div class="Getting-fixed">
-      <h1>Average response time</h1>
-      <h1>3h 8m</h1>
-    </div>
-  </div>
-</div>
+
 <!-- Graph section -->
 <!-- create alert card-->
 <!--  Created Alerts -->

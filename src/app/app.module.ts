@@ -26,9 +26,8 @@ import{MatDividerModule} from '@angular/material/divider';
 import{MatSidenavModule} from '@angular/material/sidenav';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import {MatBadgeModule} from '@angular/material/badge';
-import { MapComponent } from './map/map.component';
 import { HttpClientModule } from '@angular/common/http';
-import { AgmCoreModule } from '@agm/core';
+
 
 
 
@@ -49,7 +48,8 @@ import { AgmCoreModule } from '@agm/core';
     HelpComponent,
     DashHomeComponent,
     SidenavComponent,
-    MapComponent,
+  
+    
    
     
   
@@ -68,7 +68,7 @@ import { AgmCoreModule } from '@agm/core';
     MatIconModule,
     MatListModule,
     MatBadgeModule,
-    HttpClientModule, 
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
