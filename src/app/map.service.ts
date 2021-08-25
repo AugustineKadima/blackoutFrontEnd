@@ -1,15 +1,16 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { HelpComponent } from './help/help.component';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MapService {
+  apiKey: String = environment.Apikey
 
   constructor(private Http:HttpClient) { }
 
-  getMap(){
-    return this.Http.get<HelpComponent>("")
+  getMapFromGoogle(){
+    return this.Http.get("")
   }
 }
