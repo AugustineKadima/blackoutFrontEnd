@@ -14,6 +14,10 @@ import { AlertModalComponent } from './alert-modal/alert-modal.component';
 import { MyAlertsComponent } from './my-alerts/my-alerts.component';
 import { EditAccountsComponent } from './edit-accounts/edit-accounts.component';
 import { HelpComponent } from './help/help.component';
+import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule }from '@angular/material/slider';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +36,10 @@ import { HelpComponent } from './help/help.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

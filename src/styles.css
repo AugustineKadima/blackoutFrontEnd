@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.card {
+    border: 3px solid #5B77D9;
+    margin: auto;
+    width: 447px;
+    height: 297px;
+    top: 236px;
+    left: 496px;
+    radius: 20px;
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    border: 1px solid #5B77D9;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+.log-in {
+    margin: auto;
+    width: 46%;
+    top: 185px;
+    height: 28px;
+    padding-top: 175px;
+    font-weight:400;
+
+}
+.login-button{
+    background: #5B77D9;
+    position: absolute;
+    width: 117px;
+    height: 44px;
+    paddding-top: 1em;
+    radius: 8px;
+
+}
+#floatingInput {
+    margin-bottom: 20px;
+
+}
+.login-button btn {
+    margin-bottom: 25px;
+}
+
+/* Sign up */
+
+.sign-up {
+    margin: auto;
+    width: 46%;
+    top: 185px;
+    height: 28px;
+    padding-top: 175px;
+    font-weight:400;
+
+}
+.card-signup {
+    border: 3px solid #5B77D9;
+    margin: auto;
+    width: 447px;
+    height: 606px;
+    top: 236px;
+    left: 496px;
+    radius: 20px;
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    border: 1px solid #5B77D9;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
