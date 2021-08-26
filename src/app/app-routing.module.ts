@@ -7,18 +7,18 @@ import { SignupComponent } from './signup/signup.component';
 import { DashHomeComponent } from './dash-home/dash-home.component';
 import { DashbordOverviewComponent } from './dashbord-overview/dashbord-overview.component';
 
-
+const routes: Routes = [
+  {path: '', component: LandingPageComponent},
+  {path: 'create-alert', component: CreateAlertComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'signup', component:SignupComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { 
-  const routes: Routes = [
-    {path: '', component: LandingPageComponent},
-    {path: 'create-alert', component: CreateAlertComponent},
-    {path: 'login', component: LoginComponent},
-    {path: 'signup', component:SignupComponent}
-  
+
   
 }
