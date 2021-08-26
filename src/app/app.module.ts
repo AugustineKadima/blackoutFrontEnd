@@ -15,6 +15,16 @@ import { AlertModalComponent } from './alert-modal/alert-modal.component';
 import { MyAlertsComponent } from './my-alerts/my-alerts.component';
 import { EditAccountsComponent } from './edit-accounts/edit-accounts.component';
 import { HelpComponent } from './help/help.component';
+<<<<<<< HEAD
+import { LandingPageHeaderComponent } from './landing-page-header/landing-page-header.component';
+import { DashboardHeaderComponent } from './dashboard-header/dashboard-header.component';
+import { FormsModule } from '@angular/forms';
+import { MatBadgeModule } from '@angular/material/badge';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatIconModule} from '@angular/material/icon'
+// import {  }
+=======
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { FormsModule } from '@angular/forms';
@@ -31,6 +41,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 
+>>>>>>> master
 
 @NgModule({
   declarations: [
@@ -46,6 +57,10 @@ import { HttpClientModule } from '@angular/common/http';
     MyAlertsComponent,
     EditAccountsComponent,
     HelpComponent,
+<<<<<<< HEAD
+    LandingPageHeaderComponent,
+    DashboardHeaderComponent,
+=======
     DashHomeComponent,
     SidenavComponent,
   
@@ -55,10 +70,18 @@ import { HttpClientModule } from '@angular/common/http';
   
   
   
+>>>>>>> master
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
+    FormsModule,
+    MatBadgeModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatIconModule
+=======
     BrowserAnimationsModule,
     MatSliderModule,
     FormsModule,
@@ -69,6 +92,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatListModule,
     MatBadgeModule,
     HttpClientModule,
+>>>>>>> master
   ],
   providers: [],
   bootstrap: [AppComponent]

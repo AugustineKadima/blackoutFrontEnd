@@ -1,1 +1,79 @@
-<p>create-alert works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Side Bar -->
+        <div class="col-md-2"></div>
+        <!-- content area -->
+        <div class="col-md-10">
+            <app-dashboard-header></app-dashboard-header>
+
+            <!-- Form -->
+            <form>
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Add Button -->
+                        <div class="col-md-3">
+                            <button class="btn add-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="../../assets/plus.png" alt="plus" id="plus">
+                            </button>
+                            
+                        </div>
+                        <!-- Switch -->
+                        <div class="col-md-3">
+                            <div class="switch">
+                                <p>Off/On</p>
+                                <div class="form-check form-switch">
+                                    <label for="switch" id="switch-label-on">Off</label>
+                                    <label for="switch" id="switch-label-on">On</label>
+                                    <input class="form-check-input" type="checkbox" id="switch">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row location-details">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- Map -->
+                                <div class="col-md-8 left">
+
+                                </div>
+                                <!-- Zone data -->
+                                <div class="col-md-4">
+                                    <!-- Zone Alerts -->
+                                    <div class="zone">
+                                        <p>Zone Alerts</p>
+                                        <p id="zone">17</p>
+                                    </div>
+                                    <!-- Reported Fixed -->
+                                    <div class="reports">
+                                        <p>Reported Fixed</p>
+                                        <p id="reports">2</p>
+                                    </div>
+                                    <!-- KPLC Average Response Time -->
+                                    <div class="response">
+                                        <p>KPLC Average response time</p>
+                                        <p id="response">3h 8m</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../../assets/1818-success-animation.gif" alt="success" id="success">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
